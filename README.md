@@ -1,6 +1,6 @@
 # <p  align="center">PedroPack for TecnoCraft ![TecnoCraft](https://cdn.upload.systems/uploads/8GDBKpIG.png)
 
-![PedroPack](https://cdn.upload.systems/uploads/8JDjS1qC.png)
+![PedroPack](https://cdn.upload.systems/uploads/5mMG87mv.png)
 Ciao! La **PedroPack** è un pacchetto di risorse che migliora l'esperienza di gioco su **TecnoCraft**. Include vari miglioramenti agli item e blocchi base, aumentandone la saturazione e il livello di dettagli per garantire maggior realismo nel Roleplay.
 
 Puoi scaricare il pacchetto di risorse direttamente da  [pack.pedroo.it](https://pack.pedroo.it) 
