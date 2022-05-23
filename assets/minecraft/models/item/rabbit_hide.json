@@ -1,0 +1,206 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/rabbit_hide"
+    },
+    "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 1
+      },
+      "model": "item/tankisbase"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2
+      },
+      "model": "item/moskvitch"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3
+      },
+      "model": "item/ladaniva"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 4
+      },
+      "model": "item/jeep"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 5
+      },
+      "model": "item/heli"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6
+      },
+      "model": "item/civilboat1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 7
+      },
+      "model": "item/mig1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8
+      },
+      "model": "item/polikarpov"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 9
+      },
+      "model": "item/cadillac62"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10
+      },
+      "model": "item/motorcycle"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 11
+      },
+      "model": "item/truck"
+    },    
+    {
+      "predicate": {
+        "custom_model_data": 12
+      },
+      "model": "item/shoppingcart"
+    },    
+    {
+      "predicate": {
+        "custom_model_data": 13
+      },
+      "model": "item/policeveh"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 14
+      },
+      "model": "item/unmarkedvan"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 15
+      },
+      "model": "item/bus"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 16
+      },
+      "model": "item/b2plane"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 17
+      },
+      "model": "item/privateplane"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 18
+      },
+      "model": "item/ambulance"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 19
+      },
+      "model": "item/swspeederbike"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 20
+      },
+      "model": "item/swlandspeeder"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 21
+      },
+      "model": "item/trolly"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 22
+      },
+      "model": "item/bumpercarred"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 23
+      },
+      "model": "item/firetruck"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 24
+      },
+      "model": "item/taxi"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 25
+      },
+      "model": "item/hearse"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 26
+      },
+      "model": "item/ufo"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 27
+      },
+      "model": "item/newsvan"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 28
+      },
+      "model": "item/swatvan"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 29
+      },
+      "model": "item/streetsweep"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 30
+      },
+      "model": "item/heliorange"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 31
+      },
+      "model": "item/garbagetruck"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 32
+      },
+      "model": "item/preslimo"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 33
+      },
+      "model": "item/lamborghini"
+    }
+	]
+}

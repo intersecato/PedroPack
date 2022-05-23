@@ -1,0 +1,24 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "new_item/47"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, -90, -38],
+			"translation": [0, 0.25, 0],
+			"scale": [0.1, 0.1, 0.1]
+		},
+		"ground": {
+			"translation": [0, 4, 0],
+			"scale": [0.1, 0.1, 0.1]
+		},
+		"head": {
+			"translation": [0, 10.5, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"fixed": {
+			"scale": [0.3, 0.3, 0.3]
+		}
+	}
+}

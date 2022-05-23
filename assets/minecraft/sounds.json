@@ -1,0 +1,386 @@
+{
+   "car.idle":{
+      "sounds":[
+         "car/idle"
+      ]
+   },
+   "car.start":{
+      "sounds":[
+         "car/start"
+      ]
+   },
+   "car.accelerate":{
+      "sounds":[
+         "car/accelerate"
+      ]
+   },
+   "car.driving":{
+      "sounds":[
+         "car/driving"
+      ]
+   },
+   "car.slowingdown":{
+      "sounds":[
+         "car/slowingdown"
+      ]
+   },
+    "bulletbig": {
+        "replace": false,
+        "sounds": [
+            "bulletbig"
+        ]
+    },
+    "bulletmedium": {
+        "replace": false,
+        "sounds": [
+            "bulletmedium"
+        ]
+    },
+    "bulletsmall": {
+        "replace": false,
+        "sounds": [
+            "bulletsmall"
+        ]
+    },
+    "bulletauto": {
+        "replace": false,
+        "sounds": [
+            "bulletauto"
+        ]
+    },
+    "reloadbolt": {
+        "replace": false,
+        "sounds": [
+            "reloadbolt"
+        ]
+    },
+    "reloadbullet": {
+        "replace": false,
+        "sounds": [
+            "reloadbullet"
+        ]
+    },
+    "reloadmagin": {
+        "replace": false,
+        "sounds": [
+            "reloadmagin"
+        ]
+    },
+    "reloadmagout": {
+        "replace": false,
+        "sounds": [
+            "reloadmagout"
+        ]
+    },
+    "warheadexplode": {
+        "replace": false,
+        "sounds": [
+            "warheadexplode"
+        ]
+    },
+    "warheadlaunch": {
+        "replace": false,
+        "sounds": [
+            "warheadlaunch"
+        ]
+    },
+    "bulletlazer": {
+        "replace": false,
+        "sounds": [
+            "bulletlazer"
+        ]
+    },
+    "flashbang": {
+        "replace": false,
+        "sounds": [
+            "flashbang"
+        ]
+    },
+    "chainsmall": {
+        "replace": false,
+        "sounds": [
+            "chainsmall"
+        ]
+    },
+    "metalhit": {
+        "replace": false,
+        "sounds": [
+            "metalhit"
+        ]
+    },
+    "shockwave": {
+        "replace": false,
+        "sounds": [
+            "shockwave"
+        ]
+    },
+    "lazerfire": {
+        "replace": false,
+        "sounds": [
+            "lazerfire"
+        ]
+    },
+    "bulletswblaster": {
+        "replace": false,
+        "sounds": [
+            "bulletswblaster"
+        ]
+    },
+    "bulletneedler": {
+        "replace": false,
+        "sounds": [
+            "bulletneedler"
+        ]
+    },
+    "bullethalolazer": {
+        "replace": false,
+        "sounds": [
+            "bullethalolazer"
+        ]
+    },
+    "bulletdeagle": {
+        "replace": false,
+        "sounds": [
+            "bulletdeagle"
+        ]
+    },
+    "bulletsmallauto": {
+        "replace": false,
+        "sounds": [
+            "bulletsmallauto"
+        ]
+    },
+    "driving": {
+        "replace": false,
+        "sounds": [
+            "driving"
+        ]
+    },
+    "engine": {
+        "replace": false,
+        "sounds": [
+            "engine"
+        ]
+    },
+    "carskid": {
+        "replace": false,
+        "sounds": [
+            "carskid"
+        ]
+    },
+    "honk": {
+        "replace": false,
+        "sounds": [
+            "honk"
+        ]
+    },
+    "siren": {
+        "replace": false,
+        "sounds": [
+            "siren"
+        ]
+    },
+    "lightsaberstart": {
+        "replace": false,
+        "sounds": [
+            "lightsaberstart"
+        ]
+    },
+    "saberhit": {
+        "replace": false,
+        "sounds": [
+            "saberhit"
+        ]
+    },
+    "sithsaberstart": {
+        "replace": false,
+        "sounds": [
+            "sithsaberstart"
+        ]
+    },
+    "bulletsilence": {
+        "replace": false,
+        "sounds": [
+            "bulletsilence"
+        ]
+    },    "bd.dragging1": {
+        "sounds": [
+            "custom/dragging1"
+        ]
+    },   
+    "bd.dragging2": {
+        "sounds": [
+            "custom/dragging2"
+        ]
+    },
+    "bd.closing-vault-door": {
+        "sounds": [
+            "custom/closing-vault-door"
+        ]
+    },
+    "bd.drawbridge-rattling": {
+        "sounds": [
+            "custom/drawbridge-rattling"
+        ]
+    },
+    "bd.thud": {
+        "sounds": [
+            "custom/thud"
+        ]
+    },
+    "tram.prossimafermata": {
+        "sounds": [
+            "tram/prossima-fermata"
+        ]
+    },
+    "tram.fermata": {
+        "sounds": [
+            "tram/fermata"
+        ]
+    },
+    "tram.banca": {
+        "sounds": [
+            "tram/banca"
+        ]
+    },
+    "tram.basemilitare": {
+        "sounds": [
+            "tram/basemilitare"
+        ]
+    },
+    "tram.cimitero": {
+        "sounds": [
+            "tram/cimitero"
+        ]
+    },
+    "tram.casaparadirus": {
+        "sounds": [
+            "tram/casaparadirus"
+        ]
+    },
+    "tram.giornalaiobiblioteca": {
+        "sounds": [
+            "tram/giornalaio-biblioteca"
+        ]
+    },
+    "tram.ikea": {
+        "sounds": [
+            "tram/ikea"
+        ]
+    },
+    "tram.lavoribase": {
+        "sounds": [
+            "tram/lavoribase"
+        ]
+    },
+    "tram.levissimafiliale": {
+        "sounds": [
+            "tram/levissima-filiale"
+        ]
+    },
+    "tram.lunaparkdiscoteca": {
+        "sounds": [
+            "tram/lunapark-discoteca"
+        ]
+    },
+    "tram.municipio": {
+        "sounds": [
+            "tram/municipio"
+        ]
+    },
+    "tram.nasa": {
+        "sounds": [
+            "tram/nasa"
+        ]
+    },
+    "tram.ospedale": {
+        "sounds": [
+            "tram/ospedale"
+        ]
+    },
+    "tram.polizia": {
+        "sounds": [
+            "tram/polizia"
+        ]
+    },
+    "tram.prigione": {
+        "sounds": [
+            "tram/prigione"
+        ]
+    },
+    "tram.procuratribunale": {
+        "sounds": [
+            "tram/procura-tribunale"
+        ]
+    },
+    "tram.scuola": {
+        "sounds": [
+            "tram/scuola"
+        ]
+    },
+    "tram.periferia": {
+        "sounds": [
+            "tram/periferia"
+        ]
+    },
+    "tram.smd": {
+        "sounds": [
+            "tram/smd"
+        ]
+    },
+    "tram.tecnodrive": {
+        "sounds": [
+            "tram/tecnodrive"
+        ]
+    },
+    "tram.theclub": {
+        "sounds": [
+            "tram/theclub"
+        ]
+    },
+    "tram.universita": {
+        "sounds": [
+            "tram/universita"
+        ]
+    },
+    "tram.vaticano": {
+        "sounds": [
+            "tram/vaticano"
+        ]
+    },
+    "tram.vdf": {
+        "sounds": [
+            "tram/vdf"
+        ]
+    },
+    "tram.victoria": {
+        "sounds": [
+            "tram/victoria"
+        ]
+    },
+    "tram.posta": {
+        "sounds": [
+            "tram/posta"
+        ]
+    },
+    "tram.chiesavictoria": {
+        "sounds": [
+            "tram/chiesa-victoria"
+        ]
+    },
+    "tram.finanza": {
+        "sounds": [
+            "tram/finanza"
+        ]
+    },
+    "tram.burgerking": {
+        "sounds": [
+            "tram/burgerking"
+        ]
+    },
+    "tram.porto": {
+        "sounds": [
+            "tram/porto"
+        ]
+    }
+}

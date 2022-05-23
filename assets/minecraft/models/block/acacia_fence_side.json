@@ -1,0 +1,7 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/fence_side",
+	"textures": {
+		"texture": "block/white_concrete"
+	}
+}

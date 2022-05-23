@@ -1,0 +1,24 @@
+{
+	"credit": "made with blockbench",
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "new_item/32"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [75, 92, 0],
+			"translation": [0, -2.75, -3.75],
+			"scale": [0.8, 0.8, 0.8]
+		},
+		"head": {
+			"rotation": [90, 0, 0],
+			"translation": [1, 7, 0.5]
+		}
+	},
+	"groups": [
+		{
+			"name": "32",
+			"children": []
+		}
+	]
+}

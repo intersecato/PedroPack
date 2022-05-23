@@ -1,0 +1,513 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/crossbow_standby"
+    },
+    "display": {
+        "thirdperson_righthand": {
+            "rotation": [ -90, 0, -60 ],
+            "translation": [ 2, 0.1, -3 ],
+            "scale": [ 0.9, 0.9, 0.9 ]
+        },
+        "thirdperson_lefthand": {
+            "rotation": [ -90, 0, 30 ],
+            "translation": [ 2, 0.1, -3 ],
+            "scale": [ 0.9, 0.9, 0.9 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ -90, 0, -55 ],
+            "translation": [ 1.13, 3.2, 1.13],
+            "scale": [ 0.68, 0.68, 0.68 ]
+        },
+        "firstperson_lefthand": {
+            "rotation": [ -90, 0, 35 ],
+            "translation": [ 1.13, 3.2, 1.13],
+            "scale": [ 0.68, 0.68, 0.68 ]
+        }
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "pulling": 1
+            },
+            "model": "item/crossbow_pulling_0"
+        },
+        {
+            "predicate": {
+                "pulling": 1,
+                "pull": 0.58
+            },
+            "model": "item/crossbow_pulling_1"
+        },
+        {
+            "predicate": {
+                "pulling": 1,
+                "pull": 1.0
+            },
+            "model": "item/crossbow_pulling_2"
+        },
+        {
+            "predicate": {
+                "charged": 1
+            },
+            "model": "item/crossbow_arrow"
+        },
+        {
+            "predicate": {
+                "charged": 1,
+                "firework": 1
+            },
+            "model": "item/crossbow_firework"
+        },
+    {
+      "predicate": {
+        "custom_model_data": 1
+      },
+      "model": "item/p30"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2
+      },
+      "model": "item/pkp"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3
+      },
+      "model": "item/mp5"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 4
+      },
+      "model": "item/ak47"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 5
+      },
+      "model": "item/ak47u"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6
+      },
+      "model": "item/m16"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 7
+      },
+      "model": "item/remmington"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8
+      },
+      "model": "item/fnfal"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 9
+      },
+      "model": "item/rpg"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10
+      },
+      "model": "item/ump"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 11
+      },
+      "model": "item/sw1911"
+    },    
+    {
+      "predicate": {
+        "custom_model_data": 12
+      },
+      "model": "item/m40"
+    },    
+    {
+      "predicate": {
+        "custom_model_data": 13
+      },
+      "model": "item/enfield"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 14
+      },
+      "model": "item/mauser"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 15
+      },
+      "model": "item/grenade"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 16
+      },
+      "model": "item/dragunov"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 17
+      },
+      "model": "item/spas"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 18
+      },
+      "model": "item/aa12"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 19
+      },
+      "model": "item/magnum"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 20
+      },
+      "model": "item/awp"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 21
+      },
+      "model": "item/smokegrenade"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 22
+      },
+      "model": "item/flashbang"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 23
+      },
+      "model": "item/p30sil"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 24
+      },
+      "model": "item/awp2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 25
+      },
+      "model": "item/m4a1s"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 26
+      },
+      "model": "item/rpk"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 27
+      },
+      "model": "item/sg553"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 28
+      },
+      "model": "item/dp27"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 29
+      },
+      "model": "item/incendarygrenade"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 30
+      },
+      "model": "item/homingrpg"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 31
+      },
+      "model": "item/musketpistol"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 32
+      },
+      "model": "item/lazerrifle"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 33
+      },
+      "model": "item/fatman"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 34
+      },
+      "model": "item/fo10mm"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 35
+      },
+      "model": "item/instituterifle"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 36
+      },
+      "model": "item/musketrifle"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 37
+      },
+      "model": "item/aliens"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 38
+      },
+      "model": "item/auto9"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 39
+      },
+      "model": "item/arcgun"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 40
+      },
+      "model": "item/halo"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 41
+      },
+      "model": "item/needler"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 42
+      },
+      "model": "item/thatgun"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 43
+      },
+      "model": "item/swblaster"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 44
+      },
+      "model": "item/overwatchpulsegun"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 45
+      },
+      "model": "item/vera"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 46
+      },
+      "model": "item/lightsaberblue"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 47
+      },
+      "model": "item/lightsaberred"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 48
+      },
+      "model": "item/mac10"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 49
+      },
+      "model": "item/uzi"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 50
+      },
+      "model": "item/skorpion"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 51
+      },
+      "model": "item/sks"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 52
+      },
+      "model": "item/barrett"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 53
+      },
+      "model": "item/makarov"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 54
+      },
+      "model": "item/ppsh41"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 55
+      },
+      "model": "item/m79"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 56
+      },
+      "model": "item/minigun"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 57
+      },
+      "model": "item/mark19"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 58
+      },
+      "model": "item/asval"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 59
+      },
+      "model": "item/fnp90"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 60
+      },
+      "model": "item/kar98k"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 61
+      },
+      "model": "item/mp40"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 62
+      },
+      "model": "item/stg44"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 63
+      },
+      "model": "item/sawshotgun"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 64
+      },
+      "model": "item/famas"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 65
+      },
+      "model": "item/flamer"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 66
+      },
+      "model": "item/stengun"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 67
+      },
+      "model": "item/m32a1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 68
+      },
+      "model": "item/aiming"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 69
+      },
+      "model": "item/fivesevenfive"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 70
+      },
+      "model": "item/lightsaberblack"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 71
+      },
+      "model": "item/lightsaberwhite"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 72
+      },
+      "model": "item/lightsabergreen"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 73
+      },
+      "model": "item/lightsaberpurple"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 74
+      },
+      "model": "item/lightsaberorange"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 75
+      },
+      "model": "item/uzicorn"
+    }
+	]
+}

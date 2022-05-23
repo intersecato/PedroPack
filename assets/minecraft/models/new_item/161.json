@@ -1,0 +1,36 @@
+{
+	"credit": "Stolen From Vaipah",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "new_item/86"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 2, 1],
+			"scale": [0.3, 0.3, 0.25]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, 2, 1],
+			"scale": [0.3, 0.3, 0.13086]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 135, 0],
+			"translation": [2, 2, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 135, 0],
+			"translation": [2, 2, 0],
+			"scale": [0.4, 0.4, 1]
+		},
+		"ground": {
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"gui": {
+			"scale": [0.7, 0.7, 0.7]
+		},
+		"fixed": {
+			"scale": [0.7, 0.7, 0.7]
+		}
+	}
+}

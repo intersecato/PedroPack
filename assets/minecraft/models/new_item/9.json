@@ -1,0 +1,41 @@
+{
+	"credit": "made with blockbench",
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "new_item/9"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [-0.25, 1.75, 0.5],
+			"scale": [0.3, 0.3, 0.3]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 81, 0],
+			"translation": [2.75, 2, 1.75],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"firstperson_lefthand": {
+			"scale": [0, 0, 0]
+		},
+		"ground": {
+			"translation": [0, 5.5, 0],
+			"scale": [0.3, 0.3, 0.3]
+		},
+		"gui": {
+			"scale": [0.9, 0.9, 0.9]
+		},
+		"head": {
+			"translation": [0, -5.5, 0],
+			"scale": [0.1, 0.1, 0.1]
+		},
+		"fixed": {
+			"scale": [0.9, 0.9, 0.9]
+		}
+	},
+	"groups": [
+		{
+			"name": "9",
+			"children": []
+		}
+	]
+}

@@ -1,0 +1,62 @@
+{
+	"credit": "Stolen From Vaipah",
+	"parent": "item/gui/8x8",
+	"textures": {
+		"0": "new_gui/combinazione_sinistra",
+		"1": "new_gui/combinazione_destra",
+		"particle": "new_gui/combinazione_sinistra"
+	},
+	"elements": [
+		{
+			"from": [-14.225, 0.25, -12],
+			"to": [6.025, 0.35, 15],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-4.1, 0.375, 1.5]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 1], "texture": "#missing"},
+				"east": {"uv": [0, 0, 16, 1], "texture": "#missing"},
+				"south": {"uv": [0, 0, 16, 1], "texture": "#missing"},
+				"west": {"uv": [0, 0, 16, 1], "texture": "#missing"},
+				"up": {"uv": [5.875, 1.25, 16, 14.75], "texture": "#0"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#missing"}
+			}
+		},
+		{
+			"from": [6.025, 0.25, -12],
+			"to": [26.275, 0.35, 15],
+			"rotation": {"angle": 0, "axis": "y", "origin": [16.15, 0.375, 1.5]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 1], "texture": "#missing"},
+				"east": {"uv": [0, 0, 16, 1], "texture": "#missing"},
+				"south": {"uv": [0, 0, 16, 1], "texture": "#missing"},
+				"west": {"uv": [0, 0, 16, 1], "texture": "#missing"},
+				"up": {"uv": [0, 1.25, 10.125, 14.75], "texture": "#1"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#missing"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"scale": [0, 0, 0]
+		},
+		"thirdperson_lefthand": {
+			"scale": [0, 0, 0]
+		},
+		"firstperson_righthand": {
+			"scale": [0, 0, 0]
+		},
+		"firstperson_lefthand": {
+			"scale": [0, 0, 0]
+		},
+		"ground": {
+			"scale": [0, 0, 0]
+		},
+		"gui": {
+			"rotation": [90, 0, 0],
+			"translation": [80, -71, 0],
+			"scale": [4, 0, 4]
+		},
+		"fixed": {
+			"scale": [0, 0, 0]
+		}
+	}
+}

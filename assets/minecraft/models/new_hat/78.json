@@ -1,0 +1,31 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"particle": "entity/villager/villager",
+		"texture": "entity/villager/villager"
+	},
+	"elements": [
+		{
+			"name": "nose",
+			"from": [7, 6, 7],
+			"to": [9, 10, 9],
+			"faces": {
+				"north": {"uv": [6.5, 0.5, 7, 1.5], "texture": "#texture"},
+				"east": {"uv": [6, 0.5, 6.5, 1.5], "texture": "#texture"},
+				"south": {"uv": [7.5, 0.5, 8, 1.5], "texture": "#texture"},
+				"west": {"uv": [7.5, 0.5, 8, 1.5], "rotation": 180, "texture": "#texture"},
+				"up": {"uv": [6.5, 0, 7, 0.5], "rotation": 180, "texture": "#texture"},
+				"down": {"uv": [7, 0, 7.5, 0.5], "rotation": 270, "texture": "#texture"}
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"scale": [2.1, 2.1, 2.1]
+		},
+		"head": {
+			"translation": [0, -5, -7.8],
+			"scale": [1.7, 1.7, 1.7]
+		}
+	}
+}

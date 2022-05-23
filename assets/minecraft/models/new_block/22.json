@@ -1,0 +1,12 @@
+{
+    "parent": "item/template/block",
+    "textures": {
+        "particle": "new_block/22/front",
+        "down": "new_block/22/bottom",
+        "up": "new_block/22/top",
+        "north": "new_block/22/front",
+        "east": "new_block/22/side",
+        "south": "new_block/22/front",
+        "west": "new_block/22/side"
+    }
+}

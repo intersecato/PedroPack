@@ -1,0 +1,8 @@
+{
+	"parent": "item/template/furniture_long_painting",
+	"textures": {
+		"0": "new_furniture/21/painting",
+		"1": "new_furniture/21/back",
+		"particle": "new_furniture/21/painting"
+	}
+}
