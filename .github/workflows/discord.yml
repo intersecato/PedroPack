@@ -1,0 +1,34 @@
+name: Discord Notification
+on: [push]
+jobs:
+  build:
+    name: Notifica
+    runs-on: ubuntu-latest
+    steps:
+      - name: SHA
+        uses: benjlevesque/short-sha@v1.2
+        id: short-sha
+        with:
+          length: 8 
+      - name: Tempo
+        id: time
+        uses: nanzm/get-time-action@v1.1
+        with:
+          timeZone: 2
+          format: 'DD/MM/YYYY, HH:mm'
+      - name: Messaggio Discord
+        uses: sarisia/actions-status-discord@v1
+        with:
+          webhook: ${{ secrets.DISCORD_WEBHOOK }}
+          nodetail: true
+          notimestamp: true
+          title: ⚙️ **Aggiornamento Texture Pack**
+          description: |
+            
+            *${{ github.event.commits[0].message }}*
+            
+            #️⃣ `${{ steps.short-sha.outputs.sha }}`
+            📅 *${{ steps.time.outputs.time }}*
+            👷🏻‍♂️ Da **${{ github.event.commits[0].author.name }}**
+            
+            📥 Scarica la pack aggiornata [qui](https://pack.pedroo.it)!

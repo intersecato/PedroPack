@@ -1,0 +1,34 @@
+name: Telegram Notification
+on: [push]
+jobs:
+  build:
+    name: Notifica
+    runs-on: ubuntu-latest
+    steps:
+      - name: SHA
+        uses: benjlevesque/short-sha@v1.2
+        id: short-sha
+        with:
+          length: 8 
+      - name: Tempo
+        id: time
+        uses: nanzm/get-time-action@v1.1
+        with:
+          timeZone: 2
+          format: 'DD/MM/YYYY, HH:mm'
+      - name: Messaggio Telegram
+        uses: appleboy/telegram-action@master
+        with:
+          to: ${{ secrets.TELEGRAM_TO }}
+          token: ${{ secrets.TELEGRAM_TOKEN }}
+          format: HTML 
+          message: |
+            ⚙️ <b>Aggiornamento Texture Pack</b>
+            
+            <i>${{ github.event.commits[0].message }}</i>
+            
+            #️⃣ <code>${{ steps.short-sha.outputs.sha }}</code> <a href="https://github.com/${{ github.repository }}/commit/${{github.sha}}">(📖)</a>
+            📅 <i>${{ steps.time.outputs.time }}</i>
+            👷🏻‍♂️ Da <b>${{ github.event.commits[0].author.name }}</b>
+
+            📥 <i>Scarica la pack aggiornata <a href="https://pack.pedroo.it">qui</a>!</i>
