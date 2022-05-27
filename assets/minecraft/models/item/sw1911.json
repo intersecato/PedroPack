@@ -1,11 +1,11 @@
 {
-	"credit": "Made by Pedro",
+	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "armi:items/normalguntexture",
-		"1": "armi:items/brightguntexture",
-		"2": "armi:items/darkguntexture",
-		"3": "armi:guns/stone_slab_top",
-		"particle": "armi:items/normalguntexture"
+		"0": "items/normalguntexture",
+		"1": "items/brightguntexture",
+		"2": "items/darkguntexture",
+		"3": "block/stone_slab_top",
+		"particle": "items/normalguntexture"
 	},
 	"elements": [
 		{
@@ -2134,39 +2134,39 @@
 	"display": {
 		"thirdperson_righthand": {
 			"rotation": [5, 0, 0],
-			"translation": [-0.25, 2.25, -1.5],
+			"translation": [-0.25, 1.75, -1.5],
 			"scale": [0.4, 0.4, 0.4]
 		},
 		"thirdperson_lefthand": {
 			"rotation": [5, 0, 0],
-			"translation": [-11.5, 2.25, -1.5],
+			"translation": [-11.5, 1.75, -1.5],
 			"scale": [0.4, 0.4, 0.4]
 		},
 		"firstperson_righthand": {
 			"translation": [1.75, 0.5, -7.5],
-			"scale": [0.55, 0.55, 0.55]
+			"scale": [0.6, 0.6, 0.6]
 		},
 		"firstperson_lefthand": {
-			"translation": [-9.15, 3, -4],
-			"scale": [0.55, 0.55, 0.55]
+			"translation": [-9.09, 3.5, -1.5],
+			"scale": [0.6, 0.6, 0.6]
 		},
 		"ground": {
 			"rotation": [0, 0, 90],
-			"scale": [0.25, 0.25, 0.25]
+			"scale": [0.3, 0.3, 0.3]
 		},
 		"gui": {
-			"rotation": [-15, -90, 0],
-			"translation": [0.75, 1, 0],
-			"scale": [0.5, 0.5, 0.5]
+			"rotation": [90, -67, 90],
+			"translation": [1.25, 1.5, 0],
+			"scale": [0.6, 0.6, 0.6]
 		},
 		"head": {
 			"translation": [0, 9, 0],
 			"scale": [0.4, 0.4, 0.4]
 		},
 		"fixed": {
-			"rotation": [0, 90, 0],
-			"translation": [-1, 0, -1],
-			"scale": [0.4, 0.4, 0.4]
+			"rotation": [-90, 116, 90],
+			"translation": [-1, 1.75, -1],
+			"scale": [0.6, 0.6, 0.6]
 		}
 	},
 	"groups": [
